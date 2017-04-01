@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+		<link rel="icon" type="image/jpg" href="images/icon.jpg" />
+		<title>creationDK - Dagmar Kopp - Würzburg</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8"/>
+		<meta name="description" content="Wir sind ein Atelier für Inneneinrichtungen. Die Handwerker in unserer Werkstatt verbinden Fachwissen mit einem hohen Anspruch an Wertigkeit und Detailverliebtheit. Ein feines Gespür für die praktische Umsetzung gehören dazu. Die Konzepte entwickeln wir individuell in enger Zusammenarbeit mit unseren Kunden. So entstehen nach Maß gefertigte Einzelstücke und neue Räume, genauso wie Anpassungen. Im Ergebnis überzeugt jede einzelne Lösung und bildet eine inhaltliche Einheit aus Sichtbarem und Fühlbarem."/>
+	</head>
+	<body>
+		<div id="content">
+			<div class="box image right" id="Logo">
+				<img class="desktop" src="images/logo_desktop.svg" />
+				<img class="mobile" src="images/logo_mobile.svg" />
+			</div>
+
+			<div class="box image left" id="Slideshow">
+				<img srcset="images/slides/creation_dk_01.jpg 1x, images/slides/high/creation_dk_01.jpg 2x"/>
+				<img class="mySlides" srcset="images/slides/creation_dk_01.jpg 1x, images/slides/high/creation_dk_01.jpg 2x"/>
+				<img class="mySlides" srcset="images/slides/creation_dk_02.jpg 1x, images/slides/high/creation_dk_02.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_03.jpg 1x, images/slides/high/creation_dk_03.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_04.jpg 1x, images/slides/creation_dk_04.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_05.jpg 1x, images/slides/high/creation_dk_05.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_06.jpg 1x, images/slides/high/creation_dk_06.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_07.jpg 1x, images/slides/high/creation_dk_07.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_08.jpg 1x, images/slides/high/creation_dk_08.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_09.jpg 1x, images/slides/high/creation_dk_09.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_10.jpg 1x, images/slides/high/creation_dk_10.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_11.jpg 1x, images/slides/high/creation_dk_11.jpg 2x" />
+				<img class="mySlides" srcset="images/slides/creation_dk_12.jpg 1x, images/slides/high/creation_dk_12.jpg 2x" />
+			</div>
+			<script type="text/javascript">
+				document.addEventListener("DOMContentLoaded", function(event){
+					/*setTimeout(resize_logo(), 2000);*/
+					var slideIndex = 0;
+					carousel();
+					function carousel() {
+		   				var x = document.getElementById("Slideshow").getElementsByClassName("mySlides");
+		    			for (i = 0; i < x.length; i++) {
+		    				x[i].style.opacity = "0"; 
+		    			}
+		    			slideIndex++;
+		   				if (slideIndex > x.length) {
+		   					slideIndex = 1
+		   				} 
+		    			x[slideIndex-1].style.opacity = "1"; 
+		    			setTimeout(carousel, 4000); // Change image every 2 seconds
+						}
+				});
+			</script>
+
+			<div style="clear:both">
+			</div>
+
+			<div class="box text right" id="Ladenlokal">
+				<h1>Ladenlokal</h1>
+				<p>In der Sterngasse 3*** präsentieren wir Ihnen ausgewählte Stoffe und Möbel, darunter einige Unikate, in einer originellen Mischung. Es gibt schöne Dinge	für innen und außen, sinnliche Bettwäsche sowie Einfallsreiches für ihre Garderobe. Produkte und Hersteller wechseln nach Saison und Passion. Was bleibt, ist der hohe Anspruch an Qualität und Wert in Design und Fertigung.</p>
+				<p>Unser Raum ist ein Treffpunkt für Menschen, die das Schöne lieben. Wir bringen Sie mit mal eleganten, mal spielerischen Dingen in Berührung, die nicht so sehr Trends sondern Substanz bieten.</p>
+
+				<div class="text hover desktop">
+					<ul>
+						<li>ANNA VON MANGOLDT</li>
+						<li>DECODE</li>
+						<li>FRAMA</li>
+						<li>GIOBAGNARA</li>
+						<li>HANSEN GARMENTS</li>
+						<li>LITOLFF</li>
+						<li>LUIZ</li>
+						<li>NUD</li>
+						<li>PULPO</li>
+						<li>REICHENBACH</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="box text left" id="Konzepte">
+				<h1>Konzepte</h1>
+				<p>Wir sind ein Atelier für Inneneinrichtungen. Die Handwerker in unserer Werkstatt verbinden Fachwissen mit einem hohen Anspruch an Wertigkeit und Detailverliebtheit. Ein feines Gespür für die praktische Umsetzung gehören dazu. Die Konzepte entwickeln wir individuell in enger Zusammenarbeit mit unseren Kunden. So entstehen nach Maß gefertigte Einzelstücke und neue Räume, genauso wie Anpassungen. Im Ergebnis überzeugt jede einzelne Lösung und bildet eine inhaltliche Einheit aus Sichtbarem und Fühlbarem.</p>
+				<p>Unser Erfahrungsschatz speist sich aus Jahrzehnten erfolgreicher Arbeit:
+				<ul>
+					<li>Möbel (auch Spezialanfertigungen; Polsterarbeiten aus eigener Polsterei)</li>
+					<li>Lichtästhetik und Lichtstimmung</li>
+					<li>Wandverkleidungen und Farbberatung</li>
+					<li>Fensterdekorationen aus dem eigenen Nähatelier</li>
+				</ul>
+				</p>
+				<p>Die Basis für die Qualität, die wir liefern, ist Beratung, idealerweise direkt beim Kunden. So wird sichtbar, welche Möglichkeiten sich für Neues oder die Kombination aus Neuem mit Gewohntem ergeben. So können wir unser kreatives Wissen und Kostenbewusst sein einbringen. Das Beratungshonorar verrechnen wir nach Absprache im Rahmen des Auftrags.</p>
+				
+				<div class="text hover desktop">
+					<ul>
+						<li>ANDREW MARTIN</li>
+						<li>COLEFAX & FOWLER</li>
+						<li>CREATION BAUMANN</li>
+						<li>DEDAR</li>
+						<li>DESIGNERS GUILD</li>
+						<li>ELITIS</li>
+						<li>FLORIAN SCHULZ</li>
+						<li>GHYCZY</li>
+						<li>JASNO</li>
+						<li>LIVING DIVANI</li>
+						<li>MANUEL CANOVAS</li>
+						<li>MARAC</li>
+						<li>NYA NORDISKA</li>
+						<li>OSBORNE & LITTLE</li>
+						<li>RUCKSTUHL</li>
+						<li>SAHCO</li>
+						<li>SIGNET</li>
+						<li>WALL & DECO</li>
+						<li>ZIMMER & ROHDE</li>
+					</ul>
+				</div>
+			</div>			
+			
+			<div class="box text right" id="Kontakt">
+				<h1>Kontakt</h1>
+				<p>creationDK Dagmar Kopp<br>Sterngasse 3*** | 97070 Würzburg</p>
+				<p>tel. 0931 - 133 63<br><a href="mailto:info@creationDK.de">info@creationDK.de</p>
+				<a href="impressum.html">IMPRESSUM</a>
+			</div>	
+
+			<div style="clear:both">
+			</div>
+
+			<div class="box image right" id="Lageplan">
+				<a target="blank" href="https://www.google.de/maps/place/Dagmar+Kopp/@49.7925614,9.9278573,17z/data=!3m1!4b1!4m5!3m4!1s0x41734c56e06bbe9f:0x47e4904ac8f96529!8m2!3d49.792558!4d9.930046"><img srcset="images/lageplan.jpg 1x, images/lageplan_high.jpg 2x" /></a>
+			</div>	
+
+			<div class="box image left" id="Winter">
+				<img srcset="images/winter.jpg 1x, images/winter_high.jpg 2x" />
+			</div>	
+
+			<div class="box text left mobile" id="Marken">
+				<h1>Marken</h1>
+				<ul>
+					<li>ANNA VON MANGOLDT</li>
+					<li>DECODE</li>
+					<li>FRAMA</li>
+					<li>GIOBAGNARA</li>
+					<li>HANSEN GARMENTS</li>
+					<li>LITOLFF</li>
+					<li>LUIZ</li>
+					<li>NUD</li>
+					<li>PULPO</li>
+					<li>REICHENBACH</li>
+				</ul>
+				<ul>
+					<li>ANDREW MARTIN</li>
+					<li>COLEFAX & FOWLER</li>
+					<li>CREATION BAUMANN</li>
+					<li>DEDAR</li>
+					<li>DESIGNERS GUILD</li>
+					<li>ELITIS</li>
+					<li>FLORIAN SCHULZ</li>
+					<li>GHYCZY</li>
+					<li>JASNO</li>
+					<li>LIVING DIVANI</li>
+					<li>MANUEL CANOVAS</li>
+					<li>MARAC</li>
+					<li>NYA NORDISKA</li>
+					<li>OSBORNE & LITTLE</li>
+					<li>RUCKSTUHL</li>
+					<li>SAHCO</li>
+					<li>SIGNET</li>
+					<li>WALL & DECO</li>
+					<li>ZIMMER & ROHDE</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
