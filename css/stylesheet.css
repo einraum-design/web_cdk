@@ -146,10 +146,19 @@ li{
 	opacity: 0;
 }
 
-.hover li{
+.hover li, .hover li b, .hover li a {
 	margin-left: 0px;
  	list-style:none;
  	color: #BEB5AF;
+	opacity: 1;
+}
+
+.hover li b {
+	margin-left: 0px;
+ 	list-style:none;
+ 	color: #BEB5AF;
+ 	font-weight: bold;
+	opacity: 1;
 }
 
 #Konzepte:hover div.hover{
